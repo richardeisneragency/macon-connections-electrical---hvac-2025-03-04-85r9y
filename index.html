@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Macon Connections Electrical & HVAC</title>
     <meta name="description" content="Professional electrical, heating and air conditioning services in Macon. Fast response, great service, fair prices.">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,18 +21,28 @@
     <header class="fixed w-full bg-white shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-xl font-bold text-gray-800">
+                <a href="https://richardeisneragency.github.io/macon-connections-electrical---hvac-2025-03-04-85r9y" class="text-xl font-bold text-gray-800 hover:text-blue-600 transition duration-300">
                     Macon Connections
-                </div>
+                </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600">
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
                     <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="#services" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Services</a>
+                <a href="#benefits" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Benefits</a>
+                <a href="#testimonials" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Testimonials</a>
+                <a href="#about" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">About</a>
+                <a href="#faq" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">FAQ</a>
+                <a href="#contact" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Contact</a>
             </div>
         </nav>
     </header>
@@ -34,13 +52,13 @@
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                    Macon Connections Electrical & HVAC
+                    Expert Electrical & HVAC Solutions in Macon
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-600 mb-12">
-                    Electrician, Heating, Air Conditioning Services
+                    Your trusted partner for professional electrical, heating, and cooling services. Available 24/7 for emergencies.
                 </p>
-                <a href="mailto:maconconnectionsllc@gmail.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-300">
-                    Contact Us Today
+                <a href="mailto:maconconnectionsllc@gmail.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">
+                    Schedule Your Service
                 </a>
             </div>
         </div>
@@ -49,22 +67,22 @@
     <!-- Services Section -->
     <section id="services" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Services</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-bolt text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Electrical Services</h3>
-                    <p class="text-gray-600">Complete electrical solutions for residential and commercial properties</p>
+                    <h3 class="text-xl font-bold mb-4">Electrical Excellence</h3>
+                    <p class="text-gray-600">From panel upgrades to smart home installations, our licensed electricians deliver safe, code-compliant solutions for your property.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-temperature-high text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Heating</h3>
-                    <p class="text-gray-600">Expert heating system installation, maintenance, and repairs</p>
+                    <h3 class="text-xl font-bold mb-4">Advanced Heating</h3>
+                    <p class="text-gray-600">Stay warm with our energy-efficient heating solutions. We service all major brands and offer 24/7 emergency repairs.</p>
                 </div>
-                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300">
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 transform hover:scale-102">
                     <i class="fas fa-wind text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Air Conditioning</h3>
-                    <p class="text-gray-600">Professional AC services to keep you cool and comfortable</p>
+                    <h3 class="text-xl font-bold mb-4">Premium AC Services</h3>
+                    <p class="text-gray-600">Expert installation, maintenance, and repair of modern air conditioning systems. Enjoy optimal comfort year-round.</p>
                 </div>
             </div>
         </div>
@@ -73,23 +91,95 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">The Macon Connections Advantage</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
                     <i class="fas fa-clock text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Quick Response Time</h3>
-                    <p class="text-gray-600">Fast and reliable service when you need it most</p>
+                    <h3 class="text-xl font-bold mb-4">24/7 Emergency Response</h3>
+                    <p class="text-gray-600">Average response time under 60 minutes for urgent situations. Always here when you need us.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
                     <i class="fas fa-star text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Excellence in Service</h3>
-                    <p class="text-gray-600">Professional, quality work guaranteed</p>
+                    <h3 class="text-xl font-bold mb-4">Certified Excellence</h3>
+                    <p class="text-gray-600">Licensed technicians with ongoing training. 100% satisfaction guaranteed on all services.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
+                <div class="flex flex-col items-center text-center transform hover:scale-105 transition duration-300">
                     <i class="fas fa-dollar-sign text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-bold mb-4">Fair Pricing</h3>
-                    <p class="text-gray-600">Competitive rates with no hidden fees</p>
+                    <h3 class="text-xl font-bold mb-4">Transparent Pricing</h3>
+                    <p class="text-gray-600">Upfront estimates with no hidden fees. Flexible financing options available.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Incredible service! They responded within 30 minutes to our AC emergency and had it fixed the same day. Their technician was professional and explained everything clearly."</p>
+                    <p class="font-semibold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"We've been using Macon Connections for all our electrical needs for over 3 years. Their team is always punctual, professional, and prices are fair."</p>
+                    <p class="font-semibold">Michael Rodriguez</p>
+                    <p class="text-sm text-gray-500">Business Owner</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"The heating installation was flawless. They helped us choose the right system for our home and completed the work ahead of schedule."</p>
+                    <p class="font-semibold">Emily Thompson</p>
+                    <p class="text-sm text-gray-500">Real Estate Agent</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-4">"Best service in Macon! Their maintenance plan has saved us thousands on our commercial HVAC system. Highly recommended!"</p>
+                    <p class="font-semibold">David Wilson</p>
+                    <p class="text-sm text-gray-500">Restaurant Owner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Macon Connections</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-600 leading-relaxed">
+                    Founded in 2015, Macon Connections began with a simple mission: to provide the highest quality electrical and HVAC services to our community. What started as a small family business has grown into one of Macon's most trusted service providers, built on a foundation of technical expertise and unwavering customer service.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    Our core values of integrity, excellence, and reliability guide everything we do. We believe in transparent pricing, honest recommendations, and building lasting relationships with our clients. Our team of certified professionals undergoes regular training to stay current with the latest industry technologies and safety standards.
+                </p>
             </div>
         </div>
     </section>
@@ -99,29 +189,37 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border rounded-lg p-6">
+                <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
                     <h3 class="text-lg font-semibold mb-3">What areas do you service?</h3>
-                    <p class="text-gray-600">We serve the greater Macon area and surrounding communities.</p>
+                    <p class="text-gray-600">We proudly serve the greater Macon area and surrounding communities within a 50-mile radius, including Warner Robins, Perry, and Byron.</p>
                 </div>
-                <div class="border rounded-lg p-6">
+                <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
                     <h3 class="text-lg font-semibold mb-3">Do you offer emergency services?</h3>
-                    <p class="text-gray-600">Yes, we provide 24/7 emergency services for urgent electrical and HVAC issues.</p>
+                    <p class="text-gray-600">Yes, we provide 24/7 emergency services for both electrical and HVAC issues. Our average response time is under 60 minutes for urgent situations.</p>
                 </div>
-                <div class="border rounded-lg p-6">
+                <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
                     <h3 class="text-lg font-semibold mb-3">Are you licensed and insured?</h3>
-                    <p class="text-gray-600">Yes, we are fully licensed and insured for your peace of mind.</p>
+                    <p class="text-gray-600">Yes, we are fully licensed, bonded, and insured. All our technicians are certified and undergo regular training to maintain the highest service standards.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">What payment methods do you accept?</h3>
+                    <p class="text-gray-600">We accept all major credit cards, cash, and checks. We also offer flexible financing options for larger projects with approved credit.</p>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-lg font-semibold mb-3">Do you offer maintenance plans?</h3>
+                    <p class="text-gray-600">Yes, we offer comprehensive maintenance plans for both HVAC and electrical systems. These plans include regular inspections, priority service, and exclusive discounts.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-blue-600 text-white">
+    <section class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80'); background-blend-mode: overlay; background-size: cover;">
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Get Started?</h2>
-            <p class="text-xl mb-12">Contact us today for a free consultation</p>
-            <a href="mailto:maconconnectionsllc@gmail.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition duration-300">
-                Email Us Now
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready for Professional Service?</h2>
+            <p class="text-xl mb-12">Contact us today for a free consultation and estimate</p>
+            <a href="mailto:maconconnectionsllc@gmail.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-xl">
+                Get Started Now
             </a>
         </div>
     </section>
@@ -132,7 +230,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Macon Connections</h3>
-                    <p class="text-gray-400">Professional electrical and HVAC services</p>
+                    <p class="text-gray-400">Your trusted partner for professional electrical and HVAC services</p>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contact</h3>
@@ -141,11 +239,11 @@
                     </a>
                 </div>
                 <div>
-                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li>Electrical</li>
-                        <li>Heating</li>
-                        <li>Air Conditioning</li>
+                        <li><a href="https://richardeisneragency.github.io/macon-connections-electrical---hvac-2025-03-04-85r9y/blog.html" class="hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="https://richardeisneragency.github.io/macon-connections-electrical---hvac-2025-03-04-85r9y/privacy.html" class="hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="https://richardeisneragency.github.io/macon-connections-electrical---hvac-2025-03-04-85r9y/terms.html" class="hover:text-white transition duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
                 <div>
@@ -168,5 +266,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
